@@ -60,5 +60,3 @@ def get_articles(url):
 	next_page_link = urljoin('http://bbs.tianya.cn', next_page_link)
 	logger.info('爬取成功: {}'.format(url))
 	return articles, next_page_link
-
-
